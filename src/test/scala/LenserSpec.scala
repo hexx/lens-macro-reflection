@@ -3,7 +3,7 @@ import org.scalatest.matchers.ShouldMatchers
 
 case class Foo(a: Int)
 
-class StackSpec extends FlatSpec with ShouldMatchers {
+class LenserSpec extends FlatSpec with ShouldMatchers {
   val foo = Foo(3)
 
   "LenserOriginal" should "make a pair of setter/getter methods" in {
